@@ -1,0 +1,16 @@
+PODS:
+  - SwiftSiriWaveformView (2.4.0)
+
+DEPENDENCIES:
+  - SwiftSiriWaveformView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftSiriWaveformView
+
+SPEC CHECKSUMS:
+  SwiftSiriWaveformView: baa04ed2089e854af00ea54c38a7700ca43d7ae0
+
+PODFILE CHECKSUM: f77e91eee2e1bd0589b86b862103629dd80b03d8
+
+COCOAPODS: 1.6.1

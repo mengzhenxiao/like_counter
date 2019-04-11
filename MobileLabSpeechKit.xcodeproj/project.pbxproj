@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5178C3E49D641EAE7BFBAC10 /* Pods_MobileLabSpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A28BB4FD8D7090586ADCE9C /* Pods_MobileLabSpeechKit.framework */; };
+		6A0C6AA91FF98F020008E029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C6AA81FF98F020008E029 /* AppDelegate.swift */; };
+		6A0C6AAB1FF98F020008E029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C6AAA1FF98F020008E029 /* ViewController.swift */; };
+		6A0C6AC11FFBE30D0008E029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C6ABB1FFBE30D0008E029 /* Assets.xcassets */; };
+		6A0C6AC21FFBE30D0008E029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C6ABC1FFBE30D0008E029 /* LaunchScreen.storyboard */; };
+		6A0C6AC31FFBE30D0008E029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C6ABE1FFBE30D0008E029 /* Main.storyboard */; };
+		C5ECF14A225EEF5200932DA8 /* no.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5ECF149225EEF5200932DA8 /* no.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A28BB4FD8D7090586ADCE9C /* Pods_MobileLabSpeechKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileLabSpeechKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3681ADECA69C8F7A3874DAE4 /* Pods-MobileLabSpeechKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLabSpeechKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLabSpeechKit/Pods-MobileLabSpeechKit.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0C6AA51FF98F020008E029 /* Speech Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0C6AA81FF98F020008E029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A0C6AAA1FF98F020008E029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A0C6ABB1FFBE30D0008E029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A0C6ABD1FFBE30D0008E029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A0C6ABF1FFBE30D0008E029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A0C6AC01FFBE30D0008E029 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5ECF149225EEF5200932DA8 /* no.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = no.mp3; path = ../../no.mp3; sourceTree = "<group>"; };
+		DED130387C6A24D3AF8F82D6 /* Pods-MobileLabSpeechKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLabSpeechKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLabSpeechKit/Pods-MobileLabSpeechKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0C6AA21FF98F020008E029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5178C3E49D641EAE7BFBAC10 /* Pods_MobileLabSpeechKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66247FC92F73DB1433FD68A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3681ADECA69C8F7A3874DAE4 /* Pods-MobileLabSpeechKit.debug.xcconfig */,
+				DED130387C6A24D3AF8F82D6 /* Pods-MobileLabSpeechKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A0C6A9C1FF98F020008E029 = {
+			isa = PBXGroup;
+			children = (
+				6A0C6AA71FF98F020008E029 /* MobileLabSpeechKit */,
+				6A0C6AA61FF98F020008E029 /* Products */,
+				66247FC92F73DB1433FD68A3 /* Pods */,
+				FCED351056B4E5A535A5E85E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0C6AA61FF98F020008E029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C6AA51FF98F020008E029 /* Speech Kit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A0C6AA71FF98F020008E029 /* MobileLabSpeechKit */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C6AA81FF98F020008E029 /* AppDelegate.swift */,
+				6A0C6AAA1FF98F020008E029 /* ViewController.swift */,
+				C5ECF149225EEF5200932DA8 /* no.mp3 */,
+				6A0C6ABA1FFBE30D0008E029 /* Resources */,
+			);
+			path = MobileLabSpeechKit;
+			sourceTree = "<group>";
+		};
+		6A0C6ABA1FFBE30D0008E029 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C6ABE1FFBE30D0008E029 /* Main.storyboard */,
+				6A0C6ABC1FFBE30D0008E029 /* LaunchScreen.storyboard */,
+				6A0C6ABB1FFBE30D0008E029 /* Assets.xcassets */,
+				6A0C6AC01FFBE30D0008E029 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCED351056B4E5A535A5E85E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A28BB4FD8D7090586ADCE9C /* Pods_MobileLabSpeechKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A0C6AA41FF98F020008E029 /* MobileLabSpeechKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0C6AB71FF98F020008E029 /* Build configuration list for PBXNativeTarget "MobileLabSpeechKit" */;
+			buildPhases = (
+				ACAE7765F1593821C4BCBD10 /* [CP] Check Pods Manifest.lock */,
+				6A0C6AA11FF98F020008E029 /* Sources */,
+				6A0C6AA21FF98F020008E029 /* Frameworks */,
+				6A0C6AA31FF98F020008E029 /* Resources */,
+				97F5A14E1A58B0A5D7326AA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileLabSpeechKit;
+			productName = MobileLabSpeechKit;
+			productReference = 6A0C6AA51FF98F020008E029 /* Speech Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A0C6A9D1FF98F020008E029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mobile Lab";
+				TargetAttributes = {
+					6A0C6AA41FF98F020008E029 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6A0C6AA01FF98F020008E029 /* Build configuration list for PBXProject "MobileLabSpeechKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A0C6A9C1FF98F020008E029;
+			productRefGroup = 6A0C6AA61FF98F020008E029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A0C6AA41FF98F020008E029 /* MobileLabSpeechKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A0C6AA31FF98F020008E029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C6AC31FFBE30D0008E029 /* Main.storyboard in Resources */,
+				C5ECF14A225EEF5200932DA8 /* no.mp3 in Resources */,
+				6A0C6AC11FFBE30D0008E029 /* Assets.xcassets in Resources */,
+				6A0C6AC21FFBE30D0008E029 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97F5A14E1A58B0A5D7326AA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileLabSpeechKit/Pods-MobileLabSpeechKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSiriWaveformView/SwiftSiriWaveformView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSiriWaveformView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileLabSpeechKit/Pods-MobileLabSpeechKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAE7765F1593821C4BCBD10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileLabSpeechKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0C6AA11FF98F020008E029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C6AAB1FF98F020008E029 /* ViewController.swift in Sources */,
+				6A0C6AA91FF98F020008E029 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A0C6ABC1FFBE30D0008E029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0C6ABD1FFBE30D0008E029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A0C6ABE1FFBE30D0008E029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0C6ABF1FFBE30D0008E029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A0C6AB51FF98F020008E029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A0C6AB61FF98F020008E029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A0C6AB81FF98F020008E029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3681ADECA69C8F7A3874DAE4 /* Pods-MobileLabSpeechKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S784Y4953R;
+				INFOPLIST_FILE = MobileLabSpeechKit/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengzhen;
+				PRODUCT_NAME = "Speech Kit";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6A0C6AB91FF98F020008E029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED130387C6A24D3AF8F82D6 /* Pods-MobileLabSpeechKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S784Y4953R;
+				INFOPLIST_FILE = MobileLabSpeechKit/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengzhen;
+				PRODUCT_NAME = "Speech Kit";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A0C6AA01FF98F020008E029 /* Build configuration list for PBXProject "MobileLabSpeechKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C6AB51FF98F020008E029 /* Debug */,
+				6A0C6AB61FF98F020008E029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0C6AB71FF98F020008E029 /* Build configuration list for PBXNativeTarget "MobileLabSpeechKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C6AB81FF98F020008E029 /* Debug */,
+				6A0C6AB91FF98F020008E029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A0C6A9D1FF98F020008E029 /* Project object */;
+}
